@@ -58,12 +58,14 @@ html,body{
 .hero-image{
     border: 5px solid white;
     border-radius: 5px;
+    height: 540px;
 }
 
 .Features h1{
     color: #1F2937;
     text-align: center;
     font-size: 3rem;
+    padding-top: 1rem;
 }
 
 .feature-cards{
@@ -87,5 +89,46 @@ html,body{
 .Review{
     background-color: #E5E7Eb;
     width: 100%;
-    height: 80%;
 }
+
+.Review p{
+    font-size: 36px;
+    color: #1F2937;
+    padding: 8rem 4rem;
+    text-align: center;
+}
+
+.Review h2{
+    font-size: 30px;
+    text-align: right;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.holder{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    background: #3882F6;
+    color: white;
+    width: 1000px;
+    padding: 2rem 2rem;
+}
+
+.holder h3, p{
+    display: contents;
+    justify-content: left;
+}
+
+.btn-secondary{
+    justify-content: right;
+}
+
+.footer{
+    padding: 2rem 3rem;
+    background: #1F2937;
+    color: white;
+    text-align: center;
+}
+
