@@ -32,6 +32,7 @@ html,body{
     background-color: #1F2937;
     color: white;
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 .hero-text h1{
@@ -74,8 +75,7 @@ html,body{
     justify-content: center;
     text-align: center;
     gap: 1rem;
-    margin: 5rem;
-    padding-bottom: 1rem;
+    margin: 5rem 2rem;
 }
 
 .feature-cards p{
@@ -94,45 +94,54 @@ html,body{
 .Review{
     background-color: #E5E7Eb;
     width: 100%;
+    padding: 5rem 2rem;
+    margin-top: 2rem;
 }
 
 .Review p{
     font-size: 36px;
     color: #1F2937;
-    padding: 4rem 22rem;
     text-align: center;
+    padding: 1rem;
 }
 
 .Review h2{
     font-size: 30px;
     text-align: right;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
-
+    padding: 2rem 10rem;
 }
 
 .Callout{
-    height: 40%;
-    display: inline-block;
+    height: auto;
+    display: block;
     padding: 5rem 30rem;
 }
 
 .holder{
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882F6;
-    height: 150px;
+    height: auto;
     width: 800px;
     align-items: center;
     border: 5px solid #3882F6;
     border-radius: 8px;
     justify-content: space-between;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 1rem 3rem;
+    gap: 1rem   ;
 }
 
-.holder h3, p {
+.holder h3 {
     display: contents;
     color: white;
+    margin: 0;
+}
+
+.holder p{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
 }
 
 .btn-secondary {
@@ -141,6 +150,7 @@ html,body{
     padding: 0.75rem 1.5rem;
     border: 2px solid white;
     border-radius: 3px;
+    font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
@@ -149,6 +159,10 @@ html,body{
     text-decoration: none;
 }
   
+.btn-secondary:hover {
+    color: #3882F6;
+    background-color: #fff;
+}
 
 .footer{
     padding: 2rem 3rem;
