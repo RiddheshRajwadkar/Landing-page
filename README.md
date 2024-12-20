@@ -35,8 +35,3 @@ Welcome to the **Responsive Web Design Project**! This is a clean, modern, and r
 - **CSS3**: For styling and responsive layout.
 
 ---
-
-## 📂 Project Structure
-
-The project files are organized as follows:
-
