@@ -15,8 +15,8 @@ Welcome to the **Responsive Web Design Project**! This is a clean, modern, and r
 - **Features Section**  
   Highlighted features with visually appealing cards for key selling points.
 
-- **Customer Reviews**  
-  A section showcasing testimonials with professional styling to build trust.
+- **Quote Section**  
+  A section showcasing a random quote with professional styling to build trust.
 
 - **Callout Section**  
   An engaging call-to-action area to drive user interaction.
