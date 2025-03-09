@@ -1,4 +1,4 @@
-# Responsive Web Design Project
+# Landing Page
 
 Welcome to the **Responsive Web Design Project**! This is a clean, modern, and responsive webpage created using HTML and CSS. The layout is designed to adapt seamlessly across various screen sizes, ensuring a user-friendly experience for all devices.
 
